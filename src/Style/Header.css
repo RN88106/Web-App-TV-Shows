@@ -1,0 +1,45 @@
+*{
+    background-color: #0d0620;
+}
+
+nav{
+    display: flex;
+    background-color: aliceblue;
+   
+
+}
+
+.tvlogo{
+    font-weight: 900;
+    font-size: 2rem;
+    color: #0d0620;
+    background-color: aliceblue;
+    margin-left: 1rem;
+    
+}
+
+form{
+    position: absolute;
+    right: 1rem;
+    margin: 8px;
+    color:#0d0620;
+    background-color: aliceblue;
+}
+
+input{
+
+    color: #0d0620;
+    border: none;
+    background-color: aliceblue;
+   
+}
+
+span{
+    position: absolute;
+    right: 11rem;
+    color:aliceblue;
+    background-color:aliceblue;
+ 
+
+    
+}

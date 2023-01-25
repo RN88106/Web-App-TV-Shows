@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    width: calc("90%");
+    height: 550px;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+  .container img {
+    width: 400px;
+    height: 400px;
+    object-fit: contain;
+  }
+  
+  .textContentArea {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    margin-top: 50px;
+    width: 60%;
+  }
+  
+  .nameRating {
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+  }
+  
+  .starRating {
+    align-self: center;
+  }
+  

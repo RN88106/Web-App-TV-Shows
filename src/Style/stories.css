@@ -1,0 +1,27 @@
+::-webkit-scrollbar {
+    width: 0px;
+  }
+  
+  .containerHome {
+    display: flex;
+    overflow-x: scroll;
+    width: 100%;
+    color: white;
+  }
+  
+  .card {
+    flex-shrink: 0;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-left: 20px;
+    background-size: cover;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: white;
+    transition: all 1s;
+  }
+  
+  .card:hover{
+    transform: scale(0.9);
+  }
