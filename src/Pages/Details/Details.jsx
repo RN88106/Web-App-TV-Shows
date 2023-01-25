@@ -2,7 +2,7 @@ import React from "react";
 import { useEffect, useState } from "react";
 import { useMatch } from "react-router-dom";
 import axios from "axios";
-// import StarRatingComponent from "react-star-rating-component";
+import StarRatingComponent from "react-star-rating-component";
 import "../../Style/Details.css";
 
 
@@ -37,13 +37,13 @@ const Details = () => {
             <h1>{currentMovieData?.name}</h1>
             <h1>{currentMovieData?.rating?.average}</h1>
             <div className="starRating">
-              {/* <StarRatingComponent
+              <StarRatingComponent
                 name="Movie Rating"
                 value={currentMovieData?.rating?.average / 2}
                 starCount={5}
                 starColor={"#FFD700"}
                 emptyStarColor={"white"}
-              /> */}
+              />
 
               </div>
           </div>
